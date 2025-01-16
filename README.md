@@ -1,124 +1,42 @@
 # 🎮 AysieElf Games
 
-## 📚 Technical Stack
-- Frontend: React.js + Phaser.js (+ JavaScript Bridge?)
-- Backend: Python FastAPI
-- Database: PostgreSQL
-- ORM: SQLAlchemy
-- Authentication: JWT tokens
-- Deployment: Heroku
-- WebSocket: FastAPI WebSockets
-- State Management: Redis (for multiplayer sessions)
+Welcome to AysieElf Games - a web platform for casual gaming cozy vibes! This is the main project repository that provides an overview of the entire ecosystem.
 
-## Project Links
+## 🌟 About
+AysieElf Games is a platform to showcase my interpretations of classic games as well as completely original ones in the future. Built with React and Phaser.js for the frontend, and Python FastAPI for the backend, it offers a seamless gaming experience with features like friend systems, favorites, and activity feeds.
+
+## 📚 Technical Stack
+- **Frontend**: React.js + Phaser.js
+- **Backend**: Python FastAPI
+- **Database**: PostgreSQL
+- **ORM**: SQLAlchemy
+- **Authentication**: JWT tokens
+- **Deployment**: Heroku
+- **WebSocket**: FastAPI WebSockets
+- **State Management**: Redis (for multiplayer sessions)
+
+## 🔗 Project Links
 - [Frontend Repository](https://github.com/aysieelf/AysieElf-Games-Frontend)
 - [Backend Repository](https://github.com/aysieelf/AysieElf-Games-Backend)
-- [Frontend Deployment on Heroku](https://aysieelf-games-frontend-7d161a22345f.herokuapp.com/)
-- [Backend Deployment on Heroku](https://aysieelf-games-api-c2eb044503c3.herokuapp.com/)
+- [Frontend Deployment](https://aysieelf-games-frontend-7d161a22345f.herokuapp.com/)
+- [Backend Deployment](https://aysieelf-games-api-c2eb044503c3.herokuapp.com/)
 
-
-## Current progress
+## 📊 Overall Progress
 [▓▓░░░░░░░░░░░░░░░░░░] 12% (1/8)
-- [x] [Initial Setup & Early Deployment (deadline: 19.01.2025)](#1-initial-setup--early-deployment-1-week) _completed on 16.01.2025_
-- [ ] [Backend Foundation (deadline: 02.02.2025)](#2-backend-foundation-2-weeks)
-- [ ] [Social Features (deadline: 16.02.2025)](#3-social-features-2-weeks)
-- [ ] [Game Integration Base (deadline: 02.03.2025)](#4-game-integration-base-2-weeks)
-- [ ] [First Game Port - Sleepy Fox (deadline: 23.03.2025)](#5-first-game-port---sleepy-fox-3-weeks)
-- [ ] [Multiplayer Foundation (deadline: 06.04.2025)](#6-multiplayer-foundation-2-седмици)
-- [ ] [UI/UX Development (deadline: 20.04.2025)](#7-uiux-development-2-седмици)
-- [ ] [Polish & Launch (deadline: 27.04.2025)](#8-polish--launch-1-week)
 
-## 🗺️ Project Phases
-
-### 1️⃣ Initial Setup & Early Deployment (1 week)
-- [x] Choose technical stack
-- [x] Create GitHub repository
-- [x] Basic project structure:
-  ```
-  aysieelf-games/
-  ├── frontend/          
-  │   └── coming-soon/   # Initial landing page
-  ├── backend/           
-  │   └── health-check/  # Basic endpoint
-  └── docs/             
-  ```
-- [x] Venv, Lint
-- [x] Healthcheck endpoint
-- [x] Minimal deployments
-
-### 2️⃣ Backend Foundation (2 weeks)
-- [ ] FastAPI base structure
-- [ ] Database setup & migrations:
-  ```
-  users
-    - id, username, email, avatar
-    - created_at, last_login
-  
-  games
-    - id, title, description
-    - is_multiplayer, player_count
-    
-  favorites
-    - user_id, game_id, added_at
-    
-  friendships
-    - user_id, friend_id
-    - created_at, status
-    
-  game_activities
-    - user_id, game_id
-    - played_at, duration
-  ```
-- [ ] Core API endpoints:
-  ```
-  /api/v1/
-  ├── auth/
-  ├── games/
-  │   ├── list
-  │   └── {game_id}/details
-  └── users/
-      └── me/
-  ```
-
-### 3️⃣ Social Features (2 weeks)
-- [ ] User profiles
-- [ ] Friend system
-- [ ] Favorites management
-- [ ] Activity feed
-- [ ] Real-time notifications
-
-### 4️⃣ Game Integration Base (2 weeks)
-- [ ] Phaser.js setup
-- [ ] Game wrapper component
-- [ ] Save states
-- [ ] Activity tracking
-
-### 5️⃣ First Game Port - Sleepy Fox (3 weeks)
-- [ ] Single player mode
-- [ ] Local multiplayer
-- [ ] In-game leaderboard
-- [ ] Save progress
-
-### 6️⃣ Multiplayer Foundation (2 weeks)
-- [ ] WebSocket setup
-- [ ] Game room system
-- [ ] Player matching
-- [ ] Connection handling
-- [ ] State synchronization
-
-### 7️⃣ UI/UX Development (2 weeks)
-- [ ] Home page with favorites
-- [ ] Friend activity feed
-- [ ] Game lobby system
-- [ ] Profile customization
-- [ ] Responsive design
-
-### 8️⃣ Polish & Launch (1 week)
-- [ ] Performance optimization
-- [ ] Documentation
-- [ ] Testing
-- [ ] Deployment guide
+### Project Phases & Deadlines
+1. ✅ Initial Setup & Early Deployment (19.01.2025) - _completed on 16.01.2025_
+2. 🏗️ Backend Foundation (02.02.2025)
+3. 👥 Social Features (16.02.2025)
+4. 🎮 Game Integration Base (02.03.2025)
+5. 🦊 First Game Port - Sleepy Fox (23.03.2025)
+6. 🌐 Multiplayer Foundation (06.04.2025)
+7. 🎨 UI/UX Development (20.04.2025)
+8. ✨ Polish & Launch (27.04.2025)
 
 ## 📈 Future Phases
 - Additional games (Snake, Breakout...)
 - Achievement system
+
+## 📝 Contributing
+Interested in contributing? Check out my [Frontend](https://github.com/aysieelf/AysieElf-Games-Frontend) and [Backend](https://github.com/aysieelf/AysieElf-Games-Backend) repositories for specific contribution guidelines.
