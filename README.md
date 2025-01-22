@@ -22,7 +22,7 @@ AysieElf Games is a platform to showcase my interpretations of classic games as 
 - [Backend Deployment](https://aysieelf-games-api-c2eb044503c3.herokuapp.com/)
 
 ## 📊 Overall Progress
-[▓▓░░░░░░░░░░░░░░░░░░] 12% (1/8)
+[▓▓▓▓▓░░░░░░░░░░░░░░░] 25% (1/8)
 
 ### Project Phases & Deadlines
 1. ✅ Initial Setup & Early Deployment (19.01.2025) - _completed on 16.01.2025_
