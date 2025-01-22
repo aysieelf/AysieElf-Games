@@ -26,7 +26,7 @@ AysieElf Games is a platform to showcase my interpretations of classic games as 
 
 ### Project Phases & Deadlines
 1. ✅ Initial Setup & Early Deployment (19.01.2025) - _completed on 16.01.2025_
-2. 🏗️ Backend Foundation (02.02.2025)
+2. ✅ Backend Foundation (02.02.2025) - _completed on 21.01.2025_
 3. 👥 Social Features (16.02.2025)
 4. 🎮 Game Integration Base (02.03.2025)
 5. 🦊 First Game Port - Sleepy Fox (23.03.2025)
